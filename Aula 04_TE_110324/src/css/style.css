@@ -1,0 +1,41 @@
+h1 {
+    font-size: 30px;
+}
+
+th {
+    color: rgb(126, 4, 182);
+    font-size: 20px;
+}
+
+td {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+.border {
+    color: pink;
+}
+
+h1 {
+    color: rgb(255, 0, 191);
+}
+
+h2 {
+    color: rgb(240, 10, 140);
+}
+
+.col1 {
+    background-color: rgba(235, 16, 16, 0.925);
+}
+.col2 {
+    background-color: blue;
+}
+.col3 {
+    background-color: brown;
+}
+.col4 {
+    background-color: green;
+}

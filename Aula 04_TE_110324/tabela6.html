@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Utilizando matrizes</title>
+</head>
+
+<body>
+    <h1>Tabela 6: Usando mesclagem (rowspan="x") | (colspan = "x")</h1>
+
+    <h2>Usando colspan="x":</h2>
+    <table border = "4">
+        <tr>
+            <th>Nome</th>
+            <th colspan="2">Numero de telefone</th>
+            <th colspan ="3">objetos legais</th>
+        </tr>
+        <tr>
+            <td>Lucayan</td>
+
+            <td>(45)98824-9196</td>
+            <td>(69)99254-3153</td>
+
+            <td>faca</td>
+            <td>serra eletrica</td>
+            <td>fogueira</td>
+        </tr>
+        <tr>
+            <td>Alicy</td>
+
+            <td>(69)99344-5578</td>
+            <td>(69)99214-1254</td>
+
+            <td>dado</td>
+            <td>teclado</td>
+            <td>mouse</td>
+        </tr>
+    </table>
+
+    <h2>Usando rowspan="x":</h2>
+
+    <table border="5">
+        <tr>
+            <th rowspan="3"><font color = blue>Nome</font></th>
+            <td>lucayan porquinho</td>
+            <td>alicy magicarp</td>
+            
+        </tr>
+
+        <tr>
+            <td>filipi gei</td>
+            <td>lucas nelas</td>
+        </tr>
+        <tr>
+            <td>jefinho Deus</td>
+            <td>professor linguiça</td>
+        </tr>
+        <tr>
+            <th rowspan="2"><font color = blue>Telefones</font></th>
+            <td>(45)98824-9196</td>
+            <td rowspan="2">(45)98824-9196</td>
+        </tr>
+        <tr>
+            <td>(69)99254-3153</td>
+        </tr>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Utilizando matrizes</title>
+</head>
+
+<body>
+    <h1>Tabela 1: Estrutura básica</h1>
+    <table border="1">
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Tamanho do amor por cristo</th>
+            <th>Time que torce</th>
+        </tr>
+        <tr>
+            <td>Lucayan</td>
+            <td>24</td>
+            <td>16cm</td>
+            <td>jesus christ of nazareth</td>
+        </tr>
+        <tr>
+            <td>Alicy</td>
+            <td>19</td>
+            <td>20cm</td>
+            <td>mengao</td>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>20</td>
+            <td>24cm</td>
+            <td>botafogo</td>
+        </tr>
+    </table>
+
+    <h1>Tabela 2: Usando algumas tags organizacionais</h1>
+    <table border = "2">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Salario</th>
+                <th><- cabeçalho (thead)</th>
+              </tr>
+        </thead>
+
+        <tbody> 
+            <tr>
+                <td>a1,1</td>
+                <td>a1,2</td>
+                <td>a1,3</td>
+                <td> <- celulas (tbody)</td>
+            </tr>
+            <tr>
+                <td>a2,1</td>
+                <td>a2,2</td>
+                <td>a2,3</td>
+                <td> <- celulas (tbody)</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>a3,1</td>
+                <td>a3,2</td>
+                <td>a3,3</td>
+                <td> <- rodapé (tfoot)</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h1>Tabela 3: Usando o "nbsp" para preencher espaços vazios</h1>
+    <table border="3">
+        <tr>
+            <th>&nbsp;</th> 
+            <th>Sexo</th>
+            <th>Matéria</th>
+            <th>youtuber favorito</th>
+        </tr>
+        <tr>
+            <td>-></td> 
+            <td>masculino</td>
+            <td>&nbsp;</td> 
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>-></td> 
+            <td>&nbsp;</td> 
+            <td>&nbsp;</td> 
+            <td>&nbsp;</td> 
+        </tr>
+    </table>
+
+    <h1>Tabela 4: Usando mesclagem (rowspan="x") | (colspan = "x")</h1>
+
+    <h2>Usando colspan="x":</h2>
+    <table border = "4">
+        <tr>
+            <th>Nome</th>
+            <th colspan="2">Numero de telefone</th>
+            <th colspan ="3">objetos legais</th>
+        </tr>
+        <tr>
+            <td>Lucayan</td>
+
+            <td>(45)98824-9196</td>
+            <td>(69)99254-3153</td>
+
+            <td>faca</td>
+            <td>serra eletrica</td>
+            <td>fogueira</td>
+        </tr>
+        <tr>
+            <td>Alicy</td>
+
+            <td>(69)99344-5578</td>
+            <td>(69)99214-1254</td>
+
+            <td>dado</td>
+            <td>teclado</td>
+            <td>mouse</td>
+        </tr>
+    </table>
+
+    <h2>Usando rowspan="x":</h2>
+
+    <table border="5">
+        <tr>
+            <th rowspan="3"><font color = blue>Nome</font></th>
+            <td>lucayan porquinho</td>
+            <td>alicy magicarp</td>
+            
+        </tr>
+
+        <tr>
+            <td>filipi gei</td>
+            <td>lucas nelas</td>
+        </tr>
+        <tr>
+            <td>jefinho Deus</td>
+            <td>professor linguiça</td>
+        </tr>
+        <tr>
+            <th rowspan="2"><font color = blue>Telefones</font></th>
+            <td>(45)98824-9196</td>
+            <td rowspan="2">bolina de gorfe</td>
+        </tr>
+        <tr>
+
+            <td>(69)99254-3153</td>
+        </tr>
+    </table>
+
+    <h1>Tabela 5: Usando titulo na tabela</h1>
+    <table border = "5">
+        <caption>Tabela sobre pedido de pizza</caption>
+        <tr>
+            <th>Quantidade</th>
+            <th>Sabor</th>
+            <th>Tamanho</th>
+            <th>Codigo do pedido</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Calabresa</td>
+            <td>GG</td>
+            <td>239493249</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+
+    <h1>Tabela 6: Utilizando colgroup para estilizar: </h1>
+    <table border = "6">
+        <caption>Funcionários da disney</caption>
+        <tr>
+            <colgroup>
+                <col class="col1">
+                <col class="col2">
+                <col class="col3">
+                <col class="col4">
+            </colgroup>
+        </tr>
+        <tr>
+            <th>Nome</th>
+            <th>Salario</th>
+            <th>Função</th>
+            <th>Poder de habilidade</th>
+        </tr>
+        <tr>
+            
+            <td>Jerson</td>
+            <td>R$ 5,431</td>
+            <td>cacique da aldeia</td>
+            <td>500 Newtons</td>
+            
+        </tr>
+        <tr>
+            <td>Pedrinho gameplays</td>
+            <td>R$ 87,537</td>
+            <td>gamer</td>
+            <td>5,000 Newtons</td>
+        </tr>
+
+    </table>
+
+    <h1>Tabela 7: Utilizando colgroup para estilizar: </h1>
+    <table border = "6">
+        <caption>Funcionários da disney</caption>
+        <tr>
+            <colgroup>
+                <col span="2" style="background-color: red;">
+                <col style="background-color: pink;">
+                <col style="background-color: bisque;">
+            </colgroup>
+        </tr>
+        <tr>
+            <th>Nome</th>
+            <th>Salario</th>
+            <th>Função</th>
+            <th>Poder de habilidade</th>
+        </tr>
+        <tr>
+            
+            <td>Jerson</td>
+            <td>R$ 5,431</td>
+            <td>cacique da aldeia</td>
+            <td>500 Newtons</td>
+            
+        </tr>
+        <tr>
+            <td>Pedrinho gameplays</td>
+            <td>R$ 87,537</td>
+            <td>gamer</td>
+            <td>5,000 Newtons</td>
+        </tr>
+
+    </table>
+
+
+  
+
+
+
+</body>
+</html>
